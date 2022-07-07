@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <div className=' pt-8 max-w-5xl mx-auto'>
             <nav className=' flex items-center justify-between'>
-                <button className=' font-bold text-sm'>
+                <button className=' font-bold text-sm uppercase'>
                     Digital Agency
                 </button>
                 <button className='md:hidden'>
