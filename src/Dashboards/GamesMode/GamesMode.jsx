@@ -11,7 +11,7 @@ const GamesMode = () => {
     return (
         <div className=' bg-black relative '>
             {/* Sidebar */}
-            <div className={`${isOpen ? "w-64" : "w-20"} z-10  fixed left-0 top-0 py-8 h-screen bg-black border-r border-r-slate-50/20 flex flex-col duration-300 ease`}>
+            <div className={`${isOpen ? "w-64" : "w-12 lg:w-20"} z-10  fixed left-0 top-0 py-8 h-screen bg-black border-r border-r-slate-50/20 flex flex-col duration-300 ease`}>
                 <div className=''>
                     {isOpen && <img src={logo} alt="Games logo" className='duration-300 mb-8 pr-20 pl-4' />}
                     {/* Icons */}
@@ -39,13 +39,13 @@ const GamesMode = () => {
 
 
                 </div>
-                <svg onClick={() => setIsOpen(!isOpen)} xmlns="http://www.w3.org/2000/svg" className={`h-7 w-7 cursor-pointer text-slate-900 bg-white rounded-full ${isOpen ? "rotate-180" : "rotate-0"} duration-500 absolute -right-3`} viewBox="0 0 20 20" fill="currentColor">
+                <svg onClick={() => setIsOpen(!isOpen)} xmlns="http://www.w3.org/2000/svg" className={`h-7 w-7 cursor-pointer text-slate-900 bg-white rounded-full ${isOpen ? "rotate-180" : "rotate-0"} duration-500 absolute -right-2 top-4`} viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clipRule="evenodd" />
                 </svg>
             </div>
 
-            <div className='pt-8 pl-8  mx-auto container z-0 relative'>
-                <div className=' hidden md:flex md:justify-between md:items-center'>
+            <div className='pt-8 pl-8  mx-auto max-w-7xl z-0 relative'>
+                <div className=' hidden md:mx-auto md:max-w-2xl md:flex md:justify-between md:items-center lg:max-w-3xl xl:max-w-6xl'>
                     <div className='flex items-center space-x-3'>
                         <button className=' px-4 py-2 text-white bg-blue-600 font-medium rounded-full'>Discover</button>
                         <button className=' p-2 text-slate-400   rounded-full'>Browse</button>
@@ -60,9 +60,9 @@ const GamesMode = () => {
                         <input type="text" placeholder='Search' className={`bg-gray-900 text-white placeholder:text-gray-400 px-4 duration-300 max-w-md  md:w-44 lg:w-80 rounded-full py-2 text-sm outline-none focus:ring-4 focus:ring-blue-600 `} />
                     </div>
                 </div>
-                <div className='flex mt-8'>
+                <div className='flex flex-col max-w-sm mx-auto md:max-w-2xl md:mx-auto md:mt-8 lg:max-w-3xl  xl:max-w-6xl xl:flex-row'>
                     <div style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.9)), url(${hero})` }} className={` bg-cover flex-1 rounded-lg`}>
-                        <div className='px-7 py-4 flex flex-col justify-center h-full '>
+                        <div className='px-7 py-4 flex flex-col justify-center h-full lg:h-96 xl:h-full '>
                             <h2 className='text-white text-xl font-medium'>Fortnite</h2>
                             <div className='flex flex-col justify-end flex-1 items-start'>
                                 <p className='text-white text-sm mb-1'>Update</p>
@@ -81,7 +81,7 @@ const GamesMode = () => {
                         </div>
 
                     </div>
-                    <div className=' bg-gray-900 h-full ml-1 rounded-r-xl flex-[0.15]  px-3 py-3 space-y-8'>
+                    <div className=' bg-gray-900 h-full rounded-r-xl flex-[0.15]  px-3 py-3 space-y-8'>
                         <div className='flex items-center'>
                             <img src="./assets/game1.png" alt="" className=' object-cover mr-3' />
                             <h4 className='text-white text-sm '>Fortnite</h4>
@@ -111,8 +111,9 @@ const GamesMode = () => {
                     </div>
                 </div>
 
+                {/* Sale */}
                 <div className=' mt-10'>
-                    <div className='flex items-center justify-between'>
+                    <div className='flex max-w-sm mx-auto    xl:max-w-6xl  md:max-w-2xl md:mx-auto lg:max-w-3xl items-center justify-between'>
                         <h4 className='text-white text-sm'>Games on sale</h4>
 
                         <div className='flex items-center space-x-3'>
@@ -125,7 +126,7 @@ const GamesMode = () => {
                         </div>
                     </div>
 
-                    <div className='flex items-center justify-between space-x-8'>
+                    <div className='grid grid-col-1 place-items-center md:place-items-start gap-x-10 md:max-w-2xl md:mx-auto md:grid-cols-3 lg:grid-cols-3 lg:max-w-3xl lg:gap-x-20 xl:grid-cols-4 xl:max-w-6xl xl:gap-x-32'>
                         <div className='my-7'>
                             <div>
                                 <img src="./assets/game2.png" alt="game" />

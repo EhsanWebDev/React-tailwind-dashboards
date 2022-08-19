@@ -1,6 +1,5 @@
 import React from 'react'
 
-const sectionItem = ""
 const Services = () => {
     return (
         <div className=' py-20  max-w-5xl mx-auto '>
@@ -13,7 +12,7 @@ const Services = () => {
                     </svg>
                 </div>
                 <div className=' md:flex-[0.4]'>
-                    <img src="./assets/agency/services1.png" alt="section image" />
+                    <img src="./assets/agency/services1.png" alt="section" />
                 </div>
             </div>
             <div className=' flex mt-12 flex-col items-center px-12 space-y-8 md:flex-row md:justify-between'>
@@ -25,7 +24,7 @@ const Services = () => {
                     </svg>
                 </div>
                 <div className=' md:flex-[0.4]'>
-                    <img src="./assets/agency/services2.png" alt="section image" />
+                    <img src="./assets/agency/services2.png" alt="section" />
                 </div>
             </div>
 

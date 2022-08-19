@@ -1,7 +1,9 @@
 import React from 'react'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
+import Footer from './sections/Footer'
 import Services from './sections/Services'
+import Testimonials from './sections/Testimonials'
 
 const DigitalAgency = () => {
     return (
@@ -12,10 +14,12 @@ const DigitalAgency = () => {
 
             </div>
 
-            <div className='bg-gradient-to-br from-transparent to-indigo-100'>
+            <div className='bg-gradient-to-br from-white to-indigo-100'>
                 <Services />
             </div>
 
+            <Testimonials />
+            <Footer />
 
         </div>
     )
