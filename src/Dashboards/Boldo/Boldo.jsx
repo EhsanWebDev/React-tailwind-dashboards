@@ -41,9 +41,9 @@ const Boldo = () => {
                              lg:space-x-6
                             '>
 
-                            <li><a href="#" className='text-white'>Product</a></li>
-                            <li><a href="#" className='text-white'>Services</a></li>
-                            <li><a href="#" className='text-white'>About</a></li>
+                            <li><button className='text-white'>Product</button></li>
+                            <li><button className='text-white'>Services</button></li>
+                            <li><button className='text-white'>About</button></li>
                             <button className='bg-white text-sky-900 font-semibold text-sm px-8 shadow-md rounded-full py-2 '>Log in</button>
                         </ul>
                     </div>
