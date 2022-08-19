@@ -9,13 +9,13 @@ export const Hero = () => (
                 <rect x="462.041" y="369.797" width="8.00001" height="76" rx="4" transform="rotate(90 462.041 369.797)" fill="#95ABBC" />
                 <g clip-path="url(#clip1_76_575)">
                     <path d="M346.686 351.295C346.686 373.346 328.854 391.197 306.888 391.197C284.922 391.197 267.09 373.346 267.09 351.295C267.09 329.243 284.922 311.393 306.888 311.393C328.854 311.393 346.686 329.243 346.686 351.295Z" stroke="#0A2640" stroke-width="13.3928" />
-                    <mask id="mask0_76_575" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="232" y="287" width="74" height="122">
+                    <mask id="mask0_76_575" maskUnits="userSpaceOnUse" x="232" y="287" width="74" height="122">
                         <path d="M305.405 346.998L287.269 287.841L232.365 357.573L261.548 408.468L305.405 346.998Z" fill="#C4C4C4" />
                     </mask>
                     <g mask="url(#mask0_76_575)">
                         <path d="M346.687 351.294C346.687 373.345 328.855 391.196 306.889 391.196C284.923 391.196 267.091 373.345 267.091 351.294C267.091 329.243 284.923 311.392 306.889 311.392C328.855 311.392 346.687 329.243 346.687 351.294Z" stroke="#0DBBFC" stroke-width="13.3928" />
                     </g>
-                    <mask id="mask1_76_575" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="281" y="282" width="91" height="85">
+                    <mask id="mask1_76_575" maskUnits="userSpaceOnUse" x="281" y="282" width="91" height="85">
                         <path d="M311.544 352.182L371.54 366.873L339.835 283.913L281.272 282.96L311.544 352.182Z" fill="#C4C4C4" />
                     </mask>
                     <g mask="url(#mask1_76_575)">
